@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTTXJNRYZKumxEN5En8+8uh1TFX/V/5A9lAzRm8jU9/RD6W3g1MGk5Sl6x4+RPIrjxsbpBupA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm Shirwac</h1>
+            <p>Welcome to my portfolio website!</p>
+        </div>
+    </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a passionate software developer with expertise in various programming languages and technologies.</p>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <div class="skill">Python</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">HTML & CSS</div>
+            <div class="skill">Vs code  &  git</div>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>Jacket store page</h3>
+                <p>Description of project 1. What it does, technologies used, and any important details.</p>
+                <button class="project-btn" onclick="showOptions('project1')">View Options</button>
+                <div id="project1" class="project-options">
+                    <a href="https://github.com/shiwa4656/jacket2.0" target="_blank">View Code</a>
+                    <a href="https://shiwa4656.github.io/jacket2.0/index.html" target="_blank">Live Demo</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>Description of project 2. What it does, technologies used, and any important details.</p>
+                <button class="project-btn" onclick="showOptions('project2')">View Options</button>
+                <div id="project2" class="project-options">
+                    <a href="https://github.com/your-username/project2" target="_blank">View Code</a>
+                    <a href="https://yourproject2.com" target="_blank">Live Demo</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3>Project 3</h3>
+                <p>Description of project 3. What it does, technologies used, and any important details.</p>
+                <button class="project-btn" onclick="showOptions('project3')">View Options</button>
+                <div id="project3" class="project-options">
+                    <a href="https://github.com/your-username/project3" target="_blank">View Code</a>
+                    <a href="https://yourproject3.com" target="_blank">Live Demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/your-profile" target="_blank">Your LinkedIn Profile</a></p>
+        <p>Website: <a href="https://yourwebsite.com" target="_blank">yourwebsite.com</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
