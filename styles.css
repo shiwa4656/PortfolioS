@@ -180,8 +180,26 @@ h2 {
 #contact p {
     text-align: center;
     max-width: 600px;
-    margin: 0 auto 10px;
+    margin: 10px auto;
     color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact p {
+    text-align: center;
+    max-width: 600px;
+    margin: 10px auto;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact p i {
+    font-size: 24px;
+    margin-right: 8px;
 }
 
 #contact p a {
@@ -193,6 +211,7 @@ h2 {
 #contact p a:hover {
     color: #ffd700;
 }
+
 
 footer {
     background: #333;
