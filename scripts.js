@@ -1,4 +1,4 @@
-// Function to show project options
+
 function showOptions(projectId) {
     const options = document.getElementById(projectId);
     if (options.style.display === 'block') {
@@ -8,7 +8,6 @@ function showOptions(projectId) {
     }
 }
 
-// Close options if clicked outside
 document.addEventListener('click', function(event) {
     const isClickInside = event.target.closest('.project-card');
     if (!isClickInside) {
