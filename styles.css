@@ -53,6 +53,8 @@ header nav ul li a:hover {
     align-items: center;
     text-align: center;
     margin-top: 60px;
+    width: 95%;
+    margin-left: 1%;
 }
 
 .hero-content {
