@@ -205,3 +205,11 @@ footer {
         opacity: 1;
     }
 }
+
+/* Media queries */
+@media (max-width: 768px) {
+    #hero {
+    background: url('no picture') no-repeat center center/cover;
+    }
+  
+}
