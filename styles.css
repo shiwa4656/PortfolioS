@@ -107,7 +107,11 @@ h2 {
 
 .skill:hover {
     transform: scale(1.1);
+<<<<<<< HEAD
     cursor: pointer;
+=======
+    cursor :pointer;
+>>>>>>> 320422bf9f01c47c7080facf479b968fe13f96ba
 }
 
 #projects .projects-container {
